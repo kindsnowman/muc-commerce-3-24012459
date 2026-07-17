@@ -1,0 +1,6 @@
+﻿chart_id,file_name,business_question,chart_type,key_finding,limitation
+01,01_category_bar.png,不同投诉状态的用户流失率差异,bar,有投诉用户流失率31.7%，远高于无投诉的10.9%,仅展示关联，未排除服务差等混淆因素
+02,02_behavior_scatter.png,订单数与返现金额对流失的影响,scatter,流失用户集中于低订单低返现区域,相关不等于因果，低订单可能是流失结果
+03,03_ordered_line.png,留存阶段与流失率的关系,line,流失率从0-6月的29.3%降至24月以上的0%,有序阶段比较，非时间趋势；24月+流失率0%可能有样本偏差
+04,04_composition_chart.png,用户留存阶段的整体构成,pie_or_bar,0-6月新用户占比38.2%为最大群体,静态快照，无法反映用户流转动态
+05,day06_visualization_summary.png,整体概览,dashboard,投诉和新用户期是流失核心风险点，高活跃用户留存好,CashbackAmount非销售额，缺乏时间维度做因果分析
